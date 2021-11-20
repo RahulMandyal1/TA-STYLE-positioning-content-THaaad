@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+}
+header{
+    width: 100%;
+    background-color: #333;
+    display: inline-block;
+    padding: 20px;
+
+}
+header .logo{
+    display: inline-block;
+    color: #fff;
+  
+}
+
+header nav{
+    margin-left: 60%;
+    display: inline-block;
+  
+}
+header nav a{
+    font-size: 16px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* *********  article styling starts from here *********  */
+
+.blogcontainer{
+
+    margin: 50px ;
+    width:100% ;
+    display: inline-block;
+}
+
+.blogintroduction {
+ width: 50%;
+ display: inline-block;   
+ vertical-align: top;
+}
+
+.blogimage{
+    width: 40%;
+    display: inline-block; 
+}
+.blogimage img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* **************** footer section starts from here ********  */
+
+footer{
+ width: 100%;
+ background-color: #333;
+ padding: 20px;   
+}
+footer a{
+color: #fff;
+text-decoration: none;
+}
