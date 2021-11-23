@@ -1,0 +1,101 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery layout</title>
+    <link rel="stylesheet" href="Assets/stylesheets/style.css">
+</head>
+<body>
+    <header id="navigation-bar" class="clearfix">
+        <div class="logo" id="logo">
+            <a href="#">Altcampus</a>
+        </div>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">our blogs</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="articlesection" id="top">
+            <article class="article-container">
+                <div class="article-introductry">
+                    <p>
+                        There's no better time to grab one of the best 5G phones,
+                         as Black Friday phone deals give you the chance to save
+                          on some of the best phones out there. And these days, 
+                          it's more common for a phone to offer 5G support than
+                          to ship without it — even in relatively inexpensive 
+                          handsets.
+                        Does that mean this is now the time to 
+                        make your next phone a 5G-ready device?
+                         While carriers are continuing to expand 
+                         their 5G networks to boost speeds and
+                          increase coverage, buying any new phone
+                           likely means you're getting 5G 
+                           compatibility — and potentially at a 
+                           very attractive price.
+                    </p>
+                </div>
+                <div class="articleimage">
+                    <img src="Assets/phone.jpg" alt="">
+                </div>
+                <div class="emptydiv"></div>
+            </article>
+        </section>
+
+        <section class="gallerysection">
+            <div class="gallery-container">
+                <div class="galleryimages">
+                   <img src="Assets/phone1.jpg" alt="">
+                </div>
+                <div class="galleryimages">
+                    <img src="Assets/phone2.jpg" alt="">
+                </div>
+                <div class="galleryimages">
+                    <img src="Assets/phone3.jpg" alt="">
+                </div>
+                <div class="galleryimages">
+                    <img src="Assets/phone4.jpg" alt="">
+                </div>
+                <div class="galleryimages">
+                    <img src="Assets/phone5.jpg" alt="">
+                </div>
+                <div class="galleryimages">
+                    <img src="Assets/phone6.jpg" alt="">
+                </div>
+                <div class="emptydiv">
+
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <button class="backtotop" > <a href="#top"> backtotop</a></button>
+    <footer>
+         <p>all copyright are reserved Altcampus</p>
+    </footer>
+</body>
+</html>
